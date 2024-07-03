@@ -1,4 +1,4 @@
-const CACHE_NAME = '2025학년도 특례 정보';
+const CACHE_NAME = '2025학년도 특례어디가';
 const urlsToCache = [
   './',
   './index.html',

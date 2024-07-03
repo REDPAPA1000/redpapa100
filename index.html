@@ -14,7 +14,7 @@
         th { background-color: #90EE90; }
         #resultContainer { text-align: left; max-width: 800px; margin: 0 auto; }
     </style>
-</head>
+<link rel="manifest" href="/manifest.json"></head> 
 <body>
     <h1>2025학년도 주요대학 재외국민 특별전형 정보</h1>
     
@@ -1650,5 +1650,17 @@
             }
         }
     </script>
-</body>
-</html>
+
+<script>
+    if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+            navigator.serviceWorker.register('./serviceWorker.js')
+              .then(registration => {
+                console.log('Service worker registered:', registration);
+              })
+              .catch(error => {
+                console.log('Service worker registration failed:', error);
+              });
+          });
+        }
+      </script></body></html>

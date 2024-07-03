@@ -1,19 +1,11 @@
 {
-  "name": "2025학년도 주요대학 재외국민 특별전형 정보",
-  "short_name": "2025학년도 주요대학 재외국민 특별전형 정보",
-  "description": "2025학년도 주요대학 재외국민 특별전형 정보를 제공합니다.",
+  "background_color": "#ffffff",
   "dir": "ltr",
   "display": "standalone",
+  "name": "redpapa1000.github",
   "orientation": "any",
   "scope": "/",
-  "start_url": "https://redpapa1000.github.io/redpapa112/",
-  "theme_color": "#ffffff",
-  "background_color": "#ffffff",
-  "categories": ["life"],
-  "screenshots": [],
-  "icons": [{
-		"src": "/icon-512x512.png",
-		"sizes": "512x512"
-	}],
-  "shortcuts": []
+  "short_name": "redpapa1000.github",
+  "start_url": "/",
+  "theme_color": "#ffffff"
 }

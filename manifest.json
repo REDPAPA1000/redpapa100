@@ -1,19 +1,21 @@
 {
   "name": "2025학년도 주요대학 재외국민 특별전형 정보",
-  "short_name": "2025학년도 주요대학 재외국민 특별전형 정보",
+  "short_name": "재외국민 전형 정보",
   "description": "2025학년도 주요대학 재외국민 특별전형 정보를 제공합니다.",
-  "dir": "ltr",
-  "display": "standalone",
-  "orientation": "any",
-  "scope": "/",
   "start_url": "/",
-  "theme_color": "#ffffff",
+  "display": "standalone",
   "background_color": "#ffffff",
-  "categories": ["life"],
-  "screenshots": [],
-  "icons": [{
-		"src": "/icon-512x512.png",
-		"sizes": "512x512"
-	]
-  "shortcuts": []
+  "theme_color": "#ffffff",
+  "icons": [
+    {
+      "src": "/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
 }

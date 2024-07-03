@@ -1,4 +1,4 @@
-const CACHE_NAME = '2025학년도 주요대학 재외국민 특별전형 정보';
+const CACHE_NAME = '2025학년도 특례 정보';
 const urlsToCache = [
   './',
   './index.html',

@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="manifest" href="/manifest.json">
     <title>2025학년도 특례어디가</title>
     <style>
         body {
@@ -1898,6 +1899,20 @@
                 }
             }
         });
+    </script>
+
+    <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('/serviceWorker.js')
+          .then(registration => {
+            console.log('Service Worker registered:', registration);
+          })
+          .catch(error => {
+            console.log('Service Worker registration failed:', error);
+          });
+      });
+    }
     </script>
 </body>
 </html>
